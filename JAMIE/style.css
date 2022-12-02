@@ -1,0 +1,142 @@
+body {
+    font-family:"Roboto";
+    display:flex;
+    align-items: top;
+    justify-content: center;
+    background-image: url(img/channels4_profile.jpg);
+    background-size: cover;
+}
+
+.main-content {
+    text-align:center;
+    box-shadow: 0 0 10px;
+}
+.top-section {
+    background-color: transparent;
+    padding:50px 0 50px 0;
+    color: white;
+}
+
+.top-section img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.middle-section, .bottom-section {
+    background-color: black;
+    margin: 50px;
+    border-radius: 30px;
+    
+    
+}
+
+.middle-section {
+    position: relative;
+}
+
+.social {
+    position:absolute;
+    width:100%;
+    top: -40px;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color:white;
+    background-color:black;
+    border-radius: 40%;
+    line-height: 40px;
+    margin: 20px;
+}
+
+.bottom-section {
+    padding: 30px;
+    color:white;
+}
+
+
+.name {
+    position:relative;
+    font-size: 35px;
+    margin:0 auto;
+}
+
+.link {
+    position: absolute;
+    text-align: left;
+    margin: 63%;
+    width: 30%;
+    font-size: 30px;
+    padding-right: 200px 1px 1px;
+    color:white;
+    border-radius: 10px;
+    outline:none;
+    border-right: 10%;
+    right:1.5%;   
+    text-shadow:0 0 10px purple,0 0 10px purple;
+    background:transparent;
+
+}
+
+.click {
+    color:white;
+}
+
+.bubbles img{
+    width:30px;
+    animation: bubble 5s linear infinite;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(-700px);
+        opacity:0;
+    }
+    50%{
+        opacity:0.8;
+    }
+    70%{
+        opacity:1;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+}
+
+.bubbles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+    
+}.bubbles img:nth-child(3){
+    animation-delay: 0.5s;
+    
+}.bubbles img:nth-child(4){
+    animation-delay: 3s;
+    
+}.bubbles img:nth-child(5){
+    animation-delay: 4s;
+    
+}.bubbles img:nth-child(6){
+    animation-delay: 5s;
+    
+}.bubbles img:nth-child(7){
+    animation-delay: 4.5s;
+    
+}.bubbles img:nth-child(8){
+    animation-delay: 6s;
+}
